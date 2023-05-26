@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 10px;
+}
+
+.btn_set>button{
+    margin-top: 1rem;
+}
+
+/* classes */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex_yy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.d-none {
+  display: none;
+}
+
+
+
+/* BUTTON CLASSES */
+/* 
+    THERE ARE 5 DESIGN OF BUTTONS IN 3 SIZE
+
+    => FOR SIZE ADD CLASSES :-
+        -> btn  =  this is for large button
+        -> btn-sm = this is for small button
+        -> btn-es = this is for extra samll button
+    
+    => FOR DESIGN OF BUTTON ADD CLASSES :-
+
+       for each class there is a different design  
+        -> btn-1
+        -> btn-2
+        -> btn-3
+        -> btn-4
+        -> btn-5
+
+ */
+
+button {
+  cursor: pointer;
+}
+
+.btn {
+  padding: var(--lg-y-padding) var(--lg-x-padding);
+}
+.btn-sm {
+  padding: var(--sm-y-padding) var(--lg-x-padding);
+}
+.btn-es {
+  padding: var(--es-y-padding) var(--lg-x-padding);
+}
+/* Button - 1 */
+.btn-1 {
+  background-color: var(--primary-bg);
+}
+.btn-1:hover,
+.btn-1:focus {
+  background-color: var(--primary-hover-focus-bg);
+}
+.btn-1:active {
+  background-color: var(--primary-active-bg);
+}
+.btn-1:disabled {
+  background-color: var(--disable-bg);
+  color: var(--disable-color);
+}
+
+/* Button - 2 */
+
+.btn-2 {
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+.btn-2:hover,
+.btn-2:focus {
+  color: var(--primary-color);
+}
+.btn-2:active {
+  background-color: var(--white-color);
+  border: 1px solid var(--primary-dark-color);
+  color: var(--primary-dark-color);
+}
+.btn-2:disabled {
+  background-color: var(--disable-bg);
+  color: var(--disable-color);
+}
+
+/* Button - 3 */
+
+.btn-3 {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  border: 1px dashed var(--gray-color);
+}
+.btn-3:hover,
+.btn-3:focus {
+  color: var(--primary-color);
+  border: 1px dashed var(--primary-color);
+}
+.btn-3:active {
+  border: 1px dashed var(--primary-dark-color);
+  color: var(--primary-dark-color);
+}
+.btn-3:disabled {
+  background-color: var(--disable-bg);
+  color: var(--disable-color);
+}
+
+/* Button - 4 */
+.btn-4 {
+  color: var(--black-color);
+  border: none;
+  outline: none;
+}
+.btn-4:hover,
+.btn-4:focus,
+.btn-4:active {
+  background-color: var(--white-color);
+}
+.btn-4:disabled {
+  color: var(--disable-color);
+}
+
+/* Button - 5 */
+
+.btn-5 {
+  border: none;
+  outline: none;
+  color: var(--primary-bg);
+}
+.btn-5:hover,
+.btn-5:focus {
+  color: var(--primary-hover-focus-bg);
+}
+.btn-5:active {
+  color: var(--primary-dark-color);
+}
+.btn-5:disabled {
+  color: var(--disable-color);
+}

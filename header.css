@@ -1,0 +1,18 @@
+header{
+    background-color: var(--gray-color);
+}
+header>ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+}
+ul>a{
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: black;
+}
+ul>a:hover{
+    background-color: var(--primary-color);
+    color: white;
+}

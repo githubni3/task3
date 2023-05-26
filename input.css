@@ -1,0 +1,33 @@
+/* input size classes */
+
+.input {
+  padding: var(--lg-y-padding) var(--lg-x-padding);
+   
+}
+.input-sm {
+  padding: var(--sm-y-padding) var(--lg-x-padding);
+}
+.input-es {
+  padding: var(--es-y-padding) var(--lg-x-padding);
+}
+
+.input,.input-es,.input-sm{
+    border: none;
+  outline: none;
+  width: var(--input-width);
+}
+
+/* input designs classes */
+
+.input-1:hover,
+.input-1:focus{
+    border: 1px solid var(--primary-hover-focus-bg);
+}
+
+.input-1:disabled {
+    background-color: var(--input-disable-color);
+    border: 1px solid var(--input-disable-border);
+}
+.input-1:disabled input::placeholder{
+    columns: var(--disable-color);
+}

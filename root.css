@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Mukta:wght@200&family=Open+Sans:wght@300&family=Poppins&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap");
+
+:root {
+  /* BACKGROUND COLORS */
+  --primary-bg: #1890ff;
+  --primary-hover-focus-bg: #40a9ff;
+  --primary-active-bg: #096dd9;
+  --disable-bg: #ffffff;
+
+  /* COLOR */
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --primary-color: #40a9ff;
+  --primary-dark-color: #096dd9;
+  --disable-color: #bfbfbf;
+  --input-disable-color:#f5f5f5;
+
+  /* BORDER COLOR */
+  --gray-color: #d9d9d9;
+  --input-disable-border:#D9D9D9;
+
+  /* FONT-FAMILY */
+  font-family: "Roboto", sans-serif;
+
+  /* Font sizes */
+  --small-font-size: 14px;
+  --large-font-size: 16px;
+
+  /* Padding */
+  --lg-y-padding: 10px;
+  --lg-x-padding: 16px;
+  --sm-y-padding: 5px;
+  --es-y-padding: 2px;
+
+  /* Width */
+  --input-width:20rem
+
+}
+
+
+
+/* SET COLOR CLASSES */
+.color-black {
+  color: var(--black-color);
+}
+.color-white {
+  color: var(--white-color);
+}
+.color-primary {
+  color: var(--primary-color);
+}
+.color-secondary {
+  color: var(--secondary-color);
+}
+.color-dark {
+  color: var(--dark-color);
+}
+.color-gray {
+  color: var(--gray-color);
+}
+
+/* SET BORDER TO NONE */
+.border-none {
+  border: none;
+  outline: none;
+}
