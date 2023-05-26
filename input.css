@@ -1,8 +1,14 @@
 /* input size classes */
-
+.container {
+  flex-wrap: wrap;
+}
+input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
 .input {
   padding: var(--lg-y-padding) var(--lg-x-padding);
-   
 }
 .input-sm {
   padding: var(--sm-y-padding) var(--lg-x-padding);
@@ -11,23 +17,29 @@
   padding: var(--es-y-padding) var(--lg-x-padding);
 }
 
-.input,.input-es,.input-sm{
-    border: none;
-  outline: none;
+.input,
+.input-es,
+.input-sm {
   width: var(--input-width);
+}
+.input > img,
+.input-es > img,
+.input-sm > img {
+  padding-right: 3px;
+}
+.input > span,
+.input-es > span,
+.input-sm > span {
+  padding-right: 5px;
+  font-size: 80%;
 }
 
 /* input designs classes */
 
+.input-1 {
+  background-color: var(--white-color);
+}
 .input-1:hover,
-.input-1:focus{
-    border: 1px solid var(--primary-hover-focus-bg);
-}
-
-.input-1:disabled {
-    background-color: var(--input-disable-color);
-    border: 1px solid var(--input-disable-border);
-}
-.input-1:disabled input::placeholder{
-    columns: var(--disable-color);
+.input-1:focus {
+  border: 1px solid var(--primary-hover-focus-bg);
 }

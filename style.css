@@ -14,8 +14,8 @@ body {
   margin: 40px 10px;
 }
 
-.btn_set>button{
-    margin-top: 1rem;
+.btn_set > button {
+  margin-top: 1rem;
 }
 
 /* classes */
@@ -25,36 +25,16 @@ body {
   align-items: center;
 }
 .flex_yy {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .d-none {
   display: none;
 }
 
-
-
 /* BUTTON CLASSES */
-/* 
-    THERE ARE 5 DESIGN OF BUTTONS IN 3 SIZE
-
-    => FOR SIZE ADD CLASSES :-
-        -> btn  =  this is for large button
-        -> btn-sm = this is for small button
-        -> btn-es = this is for extra samll button
-    
-    => FOR DESIGN OF BUTTON ADD CLASSES :-
-
-       for each class there is a different design  
-        -> btn-1
-        -> btn-2
-        -> btn-3
-        -> btn-4
-        -> btn-5
-
- */
 
 button {
   cursor: pointer;

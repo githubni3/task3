@@ -26,57 +26,115 @@
         <div class="flex_y">
             <!-- FIRST ROW (FIRST SET) input -->
 
-            <form onsubmit="formHandler('input1')" class="btn_set flex_y" style="margin-top: 4rem;">
-                <input id="input1" class="input input-1" type="text" placeholder="Input Placeholder">
+            <form onsubmit="formHandler(event,'input1')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input1" class="input input-1">
+                    <input type="text" placeholder="Input Placeholder">
+                </div>
+            </form>
+            <form onsubmit="formHandler(event,'input2')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input2" class="input-sm input-1">
+                    <input type="text" placeholder="Input Placeholder">
+                </div>
+            </form>
+            <form onsubmit="formHandler(event,'input3')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input3" class="input-es input-1">
+                    <input type="text" placeholder="Input Placeholder">
+                </div>
             </form>
 
-
-            <form onsubmit="formHandler('input2')" class="btn_set flex_y" style="margin-top: 4rem;">
-                <input id="input2" class="input-sm input-1" type="text" placeholder="Input Placeholder">
-            </form>
-
-            <form onsubmit="formHandler('input3')" class="btn_set flex_y" style="margin-top: 4rem;">
-                <input id="input3" class="input-es input-1" type="text" placeholder="Input Placeholder">
-            </form>
 
         </div>
 
 
         <div class="flex_y">
-            <form onsubmit="formHandler('input4')" class="btn_set flex_y" style="margin-top: 4rem;">
-                <input id="input4" class="input input-1" type="text" placeholder="Input Placeholder">
+            <form onsubmit="formHandler(event,'input4')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input4" class="input input-1 flex">
+                    <img src="./assets/model.svg" alt="">
+                    <input type="text" placeholder="Input Placeholder">
+                </div>
             </form>
-
-
-            <form onsubmit="formHandler('input5')" class="btn_set flex_y" style="margin-top: 4rem;">
-                <input id="input5" class="input-sm input-1" type="text" placeholder="Input Placeholder">
+            <form onsubmit="formHandler(event,'input5')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input5" class="input-sm input-1 flex">
+                    <img src="./assets/model.svg" alt="">
+                    <input type="text" placeholder="Input Placeholder">
+                </div>
             </form>
-
-            <form onsubmit="formHandler('input6')" class="btn_set flex_y" style="margin-top: 4rem;">
-                <input id="input6" class="input-es input-1" type="text" placeholder="Input Placeholder">
+            <form onsubmit="formHandler(event,'input6')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input6" class="input-es input-1 flex">
+                    <img src="./assets/model.svg" alt="">
+                    <input type="text" placeholder="Input Placeholder">
+                </div>
             </form>
         </div>
 
 
         <div class="flex_y">
-            <!-- SECOND ROW (FIRST SET) -->
+            <form onsubmit="formHandler(event,'input7')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input7" class="input input-1 flex">
+                    <input type="text" placeholder="Input Placeholder">
+                    <img src="./assets/greyModel.svg" alt="">
+                </div>
+            </form>
+            <form onsubmit="formHandler(event,'input8')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input8" class="input-sm input-1 flex">
+                    <input type="text" placeholder="Input Placeholder">
+                    <img src="./assets/greyModel.svg" alt="">
+                </div>
+            </form>
+            <form onsubmit="formHandler(event,'input9')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input9" class="input-es input-1 flex">
+                    <input type="text" placeholder="Input Placeholder">
+                    <img src="./assets/greyModel.svg" alt="">
+                </div>
+            </form>
+        </div>
 
-            <div class="btn_set flex_y" style="margin-top: 4rem;">
-                ojsgsg
-            </div>
+        <div class="flex_y">
+            <form onsubmit="formHandler(event,'input10')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input10" class="input input-1 flex">
+                    <img src="./assets/model.svg" alt="">
+                    <input type="text" placeholder="Input Placeholder">
+                    <img src="./assets/info.svg" alt="">
+                </div>
+            </form>
+            <form onsubmit="formHandler(event,'input11')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input11" class="input-sm input-1 flex">
+                    <img src="./assets/model.svg" alt="">
+                    <input type="text" placeholder="Input Placeholder">
+                    <img src="./assets/info.svg" alt="">
+                </div>
+            </form>
+            <form onsubmit="formHandler(event,'input12')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input12" class="input-es input-1 flex">
+                    <img src="./assets/model.svg" alt="">
+                    <input type="text" placeholder="Input Placeholder">
+                    <img src="./assets/info.svg" alt="">
+                </div>
+            </form>
+        </div>
 
-            <!-- SECOND ROW(SECOND SET) of input -->
-
-            <div class="btn_set flex_y" style="margin-top: 4rem;">
-                
-                oijhsdfgljfdg
-            </div>
-
-            <!-- SECOND ROW(THIRD SET) of input -->
-
-            <div class="btn_set flex_y" style="margin-top: 4rem;">
-                ;ljfghg
-            </div>
+        <div class="flex_y">
+            <form onsubmit="formHandler(event,'input13')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input13" class="input input-1 flex">
+                    <span>Prefix</span>
+                    <input type="text" placeholder="Input Placeholder">
+                    <span>Suffix</span>
+                </div>
+            </form>
+            <form onsubmit="formHandler(event,'input14')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input14" class="input-sm input-1 flex">
+                    <span>Prefix</span>
+                    <input type="text" placeholder="Input Placeholder">
+                    <span>Suffix</span>
+                </div>
+            </form>
+            <form onsubmit="formHandler(event,'input15')" class="btn_set flex_y" style="margin-top: 4rem;">
+                <div id="input15" class="input-es input-1 flex">
+                    <span>Prefix</span>
+                    <input type="text" placeholder="Input Placeholder">
+                    <span>Suffix</span>
+                </div>
+            </form>
         </div>
 
 
